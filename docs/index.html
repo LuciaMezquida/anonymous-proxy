@@ -4,42 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
-
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+    <header class="header">
+      <a class="header__button" href="https://adalab.es/" title="Web de Adalab"
+        ><img src="./assets/images/ico-menu.svg" alt="menú"
+      /></a>
+    </header>
+    <section class="hero">
+      <div class="hero__text">
+        <h1 class="hero__text--title">Anonymous proxy</h1>
+        <p class="hero__text--paragraph">In hac habitasse platea dictumst.</p>
+        <a class="hero__text--down" href="" title="Go to 3 Reasons To Purchase"
+          ><img src="./assets/images/ico-scroll-down.svg" alt="botón"
+        /></a>
+      </div>
+    </section>
+    <main class="main">
+      <article class="main__looking">
+        <h6>Insomnia tips</h6>
+        <h2>Looking through a window</h2>
+        <p>
+          Donec accumsan, nulla ut volutpat portitor, quam odio tempus felis, at
+          luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+        </p>
+        <a
+          class="manin__looking--go"
+          href="https://adalab.es/"
+          title="Go to Adalab"
+          >Go</a
+        >
+      </article>
+      <secction class="main__reasons">
+        <h2>3 reasons to purchase</h2>
+        <article class="main__reasons--article1">
+          <h3>Ut sed metus</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </article>
+        <article class="main__reasons--article2">
+          <h3>Curabitur ac erat</h3>
+          <p>Mauris mattis urna quis lorem molestie.</p>
+        </article>
+        <article class="main__reasons--article3">
+          <h3>Morbi dictum</h3>
+          <p>Aliquam in dolor et dolor tincidunt.</p>
+        </article>
+        <a
+          href="https://adalab.es/"
+          class="main__reasons--button"
+          title="Web de Adalab"
+        ></a>
+      </secction>
+    </main>
+    <footer class="footer">
+      <a class="footer__arrow" href="" title="Inicio de la página"
+        ><img src="./assets/images/ico-arrow.svg" alt="botón flecha"
+      /></a>
+      <nav class="footer__one">
+        <ul>
+          <li><a class="footer-link" href="">Articles</a></li>
+          <li><a class="footer-link" href="">Books</a></li>
+          <li><a class="footer-link" href="">Events</a></li>
+          <li><a class="footer-link" href="">Reasons</a></li>
+          <li><a class="footer-link" href="">Tips</a></li>
         </ul>
-      </main>
-
-      <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
-      <a class="link__github" href="https://github.com" target="_blank">GitHub</a>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
+      </nav>
+      <nav class="footer__two">
+        <ul>
+          <li><a class="footer-link" href="">Twitter</a></li>
+          <li><a class="footer-link" href="">Instagram</a></li>
+          <li><a class="footer-link" href="">Mastodon.social</a></li>
+        </ul>
+      </nav>
+      <div class="footer__copyright">
+        <small class="footer__copyright--copy">&copy 2020</small>
+        <small class="footer__copyright--love">We ❤️ components</small>
+      </div>
+    </footer>
   </body>
 </html>
