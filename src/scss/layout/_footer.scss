@@ -47,6 +47,12 @@
       font-size: 14px;
       line-height: 30px;
       color: $color-text03;
+      .love {
+        text-transform: lowercase;
+        .heart {
+          color: $color-button;
+        }
+      }
     }
   }
 }
@@ -55,10 +61,4 @@
   line-height: 30px;
   text-transform: uppercase;
   color: $color-text03;
-}
-.love {
-  text-transform: lowercase;
-}
-.heart {
-  color: $color-button;
 }
