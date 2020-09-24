@@ -4,11 +4,14 @@
 @import "layout/page";
 @import "layout/header";
 @import "layout/hero";
+@import "layout/main-looking";
 // @import "layout/footer";
 //@import "pages/index";
 
 .main {
-  background-color: orange;
+  &__reasons {
+    background-color: orange;
+  }
 }
 .footer {
   background-color: purple;
