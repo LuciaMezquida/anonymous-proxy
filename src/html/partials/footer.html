@@ -1,29 +1,31 @@
 <footer class="footer column">
-  <div class="footer__arrow">
-    <a href="" title="Inicio de la página"
-      ><img src="./assets/images/ico-arrow.svg" alt="botón flecha"
-    /></a>
+  <div class="footer__container">
+    <div class="footer__container--arrow">
+      <a href="" title="Inicio de la página"
+        ><img src="./assets/images/ico-arrow.svg" alt="botón flecha"
+      /></a>
+    </div>
   </div>
-  <nav class="footer__one">
-    <ul>
-      <include src="./footer-links.html" text="Articles"></include>
-      <include src="./footer-links.html" text="Books"></include>
-      <include src="./footer-links.html" text="Events"></include>
-      <include src="./footer-links.html" text="Reasons"></include>
-      <include src="./footer-links.html" text="Tips"></include>
-    </ul>
-  </nav>
-  <nav class="footer__two">
-    <ul>
-      <include src="./footer-links.html" text="Twitter"></include>
-      <include src="./footer-links.html" text="Instagram"></include>
-      <include src="./footer-links.html" text="Mastodon.social"></include>
-    </ul>
-  </nav>
-  <div class="footer__copyright">
-    <small class="footer__copyright--copy">&copy 2020</small>
-    <small class="footer__copyright--love"
-      >We <span class="heart">❤︎</span> components</small
-    >
+  <div class="footer__links">
+    <nav class="footer__links--one">
+      <ul>
+        <include src="./footer-links.html" text="Articles"></include>
+        <include src="./footer-links.html" text="Books"></include>
+        <include src="./footer-links.html" text="Events"></include>
+        <include src="./footer-links.html" text="Reasons"></include>
+        <include src="./footer-links.html" text="Tips"></include>
+      </ul>
+    </nav>
+    <nav class="footer__links--two">
+      <ul>
+        <include src="./footer-links.html" text="Twitter"></include>
+        <include src="./footer-links.html" text="Instagram"></include>
+        <include src="./footer-links.html" text="Mastodon.social"></include>
+      </ul>
+    </nav>
+    <div class="footer__links--copyright">
+      <small>&copy 2020</small>
+      <small class="love">We <span class="heart">❤︎</span> components</small>
+    </div>
   </div>
 </footer>
