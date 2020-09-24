@@ -1,5 +1,5 @@
 // @import "core/variables";
-// @import "core/reset";
+@import "core/reset";
 // @import "components/links";
 // @import "layout/page";
 // @import "layout/header";
@@ -8,4 +8,13 @@
 
 .header {
   background-color: green;
+}
+.hero {
+  background-color: cadetblue;
+}
+.main {
+  background-color: orange;
+}
+.footer {
+  background-color: purple;
 }
