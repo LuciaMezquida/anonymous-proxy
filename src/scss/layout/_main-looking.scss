@@ -2,7 +2,13 @@
   &__looking {
     background-color: $color-text03;
     margin-bottom: 45px;
-
+    @media all and (min-width: 768px) {
+      margin-bottom: 60px;
+    }
+    @media all and (min-width: 1280px) {
+      padding-left: 275px;
+      padding-right: 275px;
+    }
     &--miniTitle {
       font-family: $font02;
       font-size: 14px;
@@ -10,6 +16,10 @@
       text-transform: capitalize;
       color: $color02;
       padding-top: 30px;
+      @media all and (min-width: 1280px) {
+        font-size: 16px;
+        padding-top: 60px;
+      }
     }
     &--title {
       font-family: $font01;
@@ -17,6 +27,14 @@
       line-height: 30px;
       text-transform: capitalize;
       padding: 1px 0 15px 0;
+      @media all and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 45px;
+        padding: 0 0 30px 0;
+      }
+      @media all and (min-width: 768px) {
+        font-size: 32px;
+      }
     }
     &--paragraph {
       font-family: $font02;
@@ -24,6 +42,9 @@
       line-height: 30px;
       color: $color-text02;
       padding-bottom: 30px;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+      }
     }
     &--go {
       font-family: $font02;
@@ -34,6 +55,12 @@
       border: 2px solid $color-button;
       padding: 9px 24px;
       border-radius: 22.5px;
+      @media all and (min-width: 768px) {
+        padding: 9px 31px;
+      }
+      @media all and (min-width: 1280px) {
+        padding: 9px 66px;
+      }
     }
   }
 }
