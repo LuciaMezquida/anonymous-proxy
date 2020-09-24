@@ -1,6 +1,6 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background: $color-white;
-  font-family: $font-main;
+.column {
+  padding: 0 15px;
+  @media all and (min-width: 768px) {
+    padding: 0 39px;
+  }
 }
