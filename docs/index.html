@@ -32,14 +32,17 @@
       </div>
     </header>
 
-    <section class="hero column">
+    <section id="top" class="hero column">
       <div class="hero__text column">
         <h1 class="hero__text--title">
           <span>Anonymous</span>
           <span>proxy</span>
         </h1>
         <p class="hero__text--paragraph">In hac habitasse platea dictumst.</p>
-        <a class="hero__text--down" href="" title="Go to 3 Reasons To Purchase"
+        <a
+          class="hero__text--down"
+          href="#reasons"
+          title="Go to 3 Reasons To Purchase"
           ><img src="./assets/images/ico-scroll-down.svg" alt="botón"
         /></a>
       </div>
@@ -62,7 +65,7 @@
         >
       </article>
 
-      <section class="main__reasons">
+      <section id="reasons" class="main__reasons">
         <div class="column">
           <h2 class="main__reasons--title">3 reasons to purchase</h2>
           <div class="main__reasons--articleContainer">
@@ -98,100 +101,106 @@
     </main>
 
     <footer class="footer column">
-      <a class="footer__arrow" href="" title="Inicio de la página"
-        ><img src="./assets/images/ico-arrow.svg" alt="botón flecha"
-      /></a>
-      <nav class="footer__one">
-        <ul>
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Articles</a
-            >
-          </li>
+      <div class="footer__container">
+        <div class="footer__container--arrow">
+          <a href="#top" title="Inicio de la página"
+            ><img src="./assets/images/ico-arrow.svg" alt="botón flecha"
+          /></a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <nav class="footer__links--one">
+          <ul>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Articles</a
+              >
+            </li>
 
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Books</a
-            >
-          </li>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Books</a
+              >
+            </li>
 
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Events</a
-            >
-          </li>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Events</a
+              >
+            </li>
 
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Reasons</a
-            >
-          </li>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Reasons</a
+              >
+            </li>
 
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Tips</a
-            >
-          </li>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Tips</a
+              >
+            </li>
 
-        </ul>
-      </nav>
-      <nav class="footer__two">
-        <ul>
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Twitter</a
-            >
-          </li>
+          </ul>
+        </nav>
+        <nav class="footer__links--two">
+          <ul>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Twitter</a
+              >
+            </li>
 
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Instagram</a
-            >
-          </li>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Instagram</a
+              >
+            </li>
 
-          <li class="list-links">
-            <a
-              class="footer-link"
-              target="_blank"
-              href="https://adalab.es/"
-              title="Adalab Digital"
-              >Mastodon.social</a
-            >
-          </li>
+            <li class="list-links">
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://adalab.es/"
+                title="Adalab Digital"
+                >Mastodon.social</a
+              >
+            </li>
 
-        </ul>
-      </nav>
-      <div class="footer__copyright">
-        <small class="footer__copyright--copy">&copy 2020</small>
-        <small class="footer__copyright--love">We ❤️ components</small>
+          </ul>
+        </nav>
+        <div class="footer__links--copyright">
+          <small>&copy 2020</small>
+          <small class="love">We <span class="heart">❤︎</span> components</small>
+        </div>
       </div>
     </footer>
 
