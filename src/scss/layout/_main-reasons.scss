@@ -10,15 +10,38 @@
       font-weight: bold;
       text-transform: capitalize;
       padding: 30px 0 45px 0;
+      @media all and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 45px;
+      }
+      @media all and (min-width: 1280px) {
+        font-size: 32px;
+        padding-top: 60px;
+      }
+    }
+    &--articleContainer {
+      padding: 0 70px;
+      @media all and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1;
+        padding: 0;
+      }
     }
     &--article {
-      padding: 0 70px;
+      @media all and (min-width: 768px) {
+        padding: 0 13px;
+      }
     }
     &--articleTitle {
       font-family: $font01;
       font-size: 18px;
       line-height: 30px;
       font-weight: bold;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+        padding-bottom: 14px;
+      }
     }
     &--paragraph {
       font-family: $font02;
@@ -26,6 +49,10 @@
       line-height: 30px;
       font-weight: normal;
       padding-bottom: 45px;
+      @media all and (min-width: 768px) {
+        font-size: 20px;
+        padding-bottom: 60px;
+      }
     }
     &--button {
       font-family: $font02;
@@ -38,6 +65,12 @@
       background-color: $color-button;
       border-radius: 22.5px;
       padding: 10px 30px;
+      @media all and (min-width: 768px) {
+        padding: 10px 44px;
+      }
+      @media all and (min-width: 1280px) {
+        padding: 10px 66px;
+      }
     }
   }
 }
