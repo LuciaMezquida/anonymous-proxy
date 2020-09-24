@@ -3,49 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
+    <title>Evaluacion módulo 1</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="shortcut icon"
-      href="./assets/images/favicon.png"
+      href="./assets/images/building.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-
   <body>
     <header class="header">
-      <a class="header__button" href="https://adalab.es/" title="Web de Adalab"
-        ><img src="./assets/images/ico-menu.svg" alt="menú"
-      /></a>
+      <div class="header__button">
+        <a
+          class="header__button--link"
+          href="https://adalab.es/"
+          target="_blank"
+          title="Web de Adalab"
+          ><img src="./assets/images/ico-menu.svg" alt="menú"
+        /></a>
+      </div>
     </header>
-    <section class="hero">
-      <div class="hero__text">
-        <h1 class="hero__text--title">Anonymous proxy</h1>
+
+    <section class="hero column">
+      <div class="hero__text column">
+        <h1 class="hero__text--title">
+          <span>Anonymous</span>
+          <span>proxy</span>
+        </h1>
         <p class="hero__text--paragraph">In hac habitasse platea dictumst.</p>
         <a class="hero__text--down" href="" title="Go to 3 Reasons To Purchase"
           ><img src="./assets/images/ico-scroll-down.svg" alt="botón"
         /></a>
       </div>
     </section>
-    <main class="main">
+
+    <main class="main column">
       <article class="main__looking">
-        <h6>Insomnia tips</h6>
-        <h2>Looking through a window</h2>
-        <p>
+        <h6 class="main__looking--miniTitle">Insomnia tips</h6>
+        <h2 class="main__looking--title">Looking through a window</h2>
+        <p class="main__looking--paragraph">
           Donec accumsan, nulla ut volutpat portitor, quam odio tempus felis, at
           luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
         <a
-          class="manin__looking--go"
+          class="main__looking--go"
           href="https://adalab.es/"
           title="Go to Adalab"
+          target="_blank"
           >Go</a
         >
       </article>
+
       <secction class="main__reasons">
         <h2>3 reasons to purchase</h2>
         <article class="main__reasons--article1">
@@ -64,27 +80,103 @@
           href="https://adalab.es/"
           class="main__reasons--button"
           title="Web de Adalab"
-        ></a>
+          target="_blank"
+          >More reasons</a
+        >
       </secction>
+
     </main>
-    <footer class="footer">
+
+    <footer class="footer column">
       <a class="footer__arrow" href="" title="Inicio de la página"
         ><img src="./assets/images/ico-arrow.svg" alt="botón flecha"
       /></a>
       <nav class="footer__one">
         <ul>
-          <li><a class="footer-link" href="">Articles</a></li>
-          <li><a class="footer-link" href="">Books</a></li>
-          <li><a class="footer-link" href="">Events</a></li>
-          <li><a class="footer-link" href="">Reasons</a></li>
-          <li><a class="footer-link" href="">Tips</a></li>
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Articles</a
+            >
+          </li>
+
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Books</a
+            >
+          </li>
+
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Events</a
+            >
+          </li>
+
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Reasons</a
+            >
+          </li>
+
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Tips</a
+            >
+          </li>
+
         </ul>
       </nav>
       <nav class="footer__two">
         <ul>
-          <li><a class="footer-link" href="">Twitter</a></li>
-          <li><a class="footer-link" href="">Instagram</a></li>
-          <li><a class="footer-link" href="">Mastodon.social</a></li>
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Twitter</a
+            >
+          </li>
+
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Instagram</a
+            >
+          </li>
+
+          <li class="list-links">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://adalab.es/"
+              title="Adalab Digital"
+              >Mastodon.social</a
+            >
+          </li>
+
         </ul>
       </nav>
       <div class="footer__copyright">
@@ -92,5 +184,6 @@
         <small class="footer__copyright--love">We ❤️ components</small>
       </div>
     </footer>
+
   </body>
 </html>
