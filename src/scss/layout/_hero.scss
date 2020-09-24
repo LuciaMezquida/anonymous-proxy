@@ -11,18 +11,41 @@
     text-align: center;
     color: $color-text03;
     margin-bottom: 68.3px;
+    @media all and (min-width: 768px) {
+      margin-bottom: 60.3px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-bottom: 28.3px;
+    }
     &--title {
+      display: flex;
+      flex-direction: column;
       font-family: $font01;
       text-transform: uppercase;
       font-size: 42px;
       line-height: 55px;
       text-shadow: 0 2px 3px $color-text-shadow01;
       font-weight: bold;
+      @media all and (min-width: 768px) {
+        font-size: 80px;
+        line-height: 106px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 100px;
+        line-height: 132px;
+      }
     }
     &--paragraph {
       font-family: $font02;
       font-size: 16px;
       padding: 10px 0 63px 0;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+        padding: 20px 0 48px 0;
+      }
+      @media all and (min-width: 1200px) {
+        padding-top: 0;
+      }
     }
     &--down {
       width: 45px;
