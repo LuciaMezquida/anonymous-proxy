@@ -1,17 +1,12 @@
 @import "core/reset";
-// @import "core/variables";
+@import "core/variables";
 @import "components/links";
 @import "layout/page";
-// @import "layout/header";
+@import "layout/header";
+@import "layout/hero";
 // @import "layout/footer";
 //@import "pages/index";
 
-.header {
-  background-color: green;
-}
-.hero {
-  background-color: cadetblue;
-}
 .main {
   background-color: orange;
 }
