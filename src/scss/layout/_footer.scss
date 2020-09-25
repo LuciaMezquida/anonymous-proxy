@@ -30,7 +30,7 @@
       justify-content: center;
       align-items: center;
       box-shadow: 0 2px 4px 0 $color-text-shadow02;
-      animation: beat ease 4s infinite;
+      animation: beat ease 3s infinite;
     }
   }
   &__links {
@@ -70,9 +70,13 @@
     }
   }
 }
-.footer-link {
-  font-size: 16px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: $color-text03;
+.list-links {
+  list-style-type: none;
+  .footer-link {
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: $color-text03;
+    text-decoration: none;
+  }
 }
