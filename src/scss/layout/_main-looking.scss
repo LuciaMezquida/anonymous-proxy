@@ -56,12 +56,17 @@
       border: 2px solid $color-button;
       padding: 9px 24px;
       border-radius: 22.5px;
+      transition: ease 1s;
       @media all and (min-width: 768px) {
         padding: 9px 31px;
       }
       @media all and (min-width: 1280px) {
         padding: 9px 66px;
       }
+    }
+    &--go:hover {
+      color: $color-text03;
+      background-color: $color-button;
     }
   }
 }
