@@ -48,11 +48,15 @@
       @media all and (min-width: 768px) {
         padding-top: 0;
         padding-bottom: 0;
+        width: 210px;
       }
     }
     &--two {
       padding-bottom: 30px;
       order: 1;
+      @media all and (min-width: 768px) {
+        width: 210px;
+      }
     }
     &--copyright {
       display: flex;
@@ -61,6 +65,9 @@
       font-size: 14px;
       line-height: 30px;
       color: $color-text03;
+      @media all and (min-width: 768px) {
+        width: 210px;
+      }
       .love {
         text-transform: lowercase;
         .heart {
