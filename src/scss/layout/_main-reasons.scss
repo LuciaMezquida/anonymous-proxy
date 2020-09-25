@@ -66,13 +66,19 @@
       color: $color-text03;
       background-color: $color-button;
       border-radius: 22.5px;
-      padding: 10px 30px;
+      padding: 9px 30px;
+      border: 2px solid #f26002;
+      transition: ease 1s;
       @media all and (min-width: 768px) {
-        padding: 10px 44px;
+        padding: 9px 44px;
       }
       @media all and (min-width: 1280px) {
-        padding: 10px 66px;
+        padding: 9px 66px;
       }
+    }
+    &--button:hover {
+      color: $color-button;
+      background-color: $color-text03;
     }
   }
 }
