@@ -7,6 +7,7 @@
       font-family: $font01;
       font-size: 24px;
       line-height: 30px;
+      color: $color-text01;
       font-weight: bold;
       text-transform: capitalize;
       padding: 30px 0 45px 0;
@@ -39,6 +40,7 @@
       font-family: $font01;
       font-size: 18px;
       line-height: 30px;
+      color: $color-text01;
       font-weight: bold;
       @media all and (min-width: 768px) {
         font-size: 24px;
@@ -49,6 +51,7 @@
       font-family: $font02;
       font-size: 18px;
       line-height: 30px;
+      color: $color-text01;
       font-weight: normal;
       padding-bottom: 45px;
       @media all and (min-width: 768px) {
