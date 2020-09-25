@@ -1,3 +1,15 @@
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .footer {
   background-color: $color01;
   font-family: $font02;
@@ -8,6 +20,8 @@
     flex-direction: column;
     align-items: center;
     &--arrow {
+      position: relative;
+      top: -22px;
       background-color: $color-text03;
       width: 45px;
       height: 45px;
@@ -15,8 +29,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translate(0, -22px);
       box-shadow: 0 2px 4px 0 $color-text-shadow02;
+      animation: beat ease 4s infinite;
     }
   }
   &__links {
