@@ -19,7 +19,9 @@
     }
     &--title {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 300px;
       font-family: $font01;
       text-transform: uppercase;
       font-size: 42px;
