@@ -24,7 +24,7 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 45px 1fr 45px 1fr;
-      padding: 0 70px 45px;
+      padding: 0 70px 65px;
       @media all and (min-width: 768px) {
         grid-template-columns: 1fr 27.7px 1fr 27.7px 1fr;
         grid-template-rows: 1fr;
@@ -79,25 +79,24 @@
     &--button {
       font-family: $font02;
       font-size: 20px;
-      line-height: 45px;
       font-weight: 500;
+      line-height: 45px;
+      color: $color-button;
       text-decoration: none;
-      color: $color-text03;
-      background-color: $color-button;
+      border: 2px solid $color-button;
+      padding: 9px 24px;
       border-radius: 22.5px;
-      padding: 9px 30px;
-      border: 2px solid #f26002;
       transition: ease 1s;
       @media all and (min-width: 768px) {
-        padding: 9px 44px;
+        padding: 9px 31px;
       }
       @media all and (min-width: 1280px) {
         padding: 9px 66px;
       }
     }
     &--button:hover {
-      color: $color-button;
-      background-color: $color-text03;
+      color: $color-text03;
+      background-color: $color-button;
     }
   }
 }
